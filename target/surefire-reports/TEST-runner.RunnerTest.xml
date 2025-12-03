@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.RunnerTest" time="0.632" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/ubuntu/hamburgueria-bdd/target/test-classes:/home/ubuntu/hamburgueria-bdd/target/classes:/home/ubuntu/.m2/repository/io/cucumber/cucumber-java/7.20.1/cucumber-java-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/cucumber-core/7.20.1/cucumber-core-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/cucumber-gherkin/7.20.1/cucumber-gherkin-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.20.1/cucumber-gherkin-messages-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/ubuntu/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/home/ubuntu/.m2/repository/io/cucumber/testng-xml-formatter/0.2.0/testng-xml-formatter-0.2.0.jar:/home/ubuntu/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/home/ubuntu/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/home/ubuntu/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/home/ubuntu/.m2/repository/io/cucumber/datatable/7.20.1/datatable-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/cucumber-plugin/7.20.1/cucumber-plugin-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/docstring/7.20.1/docstring-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/html-formatter/21.7.0/html-formatter-21.7.0.jar:/home/ubuntu/.m2/repository/io/cucumber/junit-xml-formatter/0.5.0/junit-xml-formatter-0.5.0.jar:/home/ubuntu/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/ubuntu/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ubuntu/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.20.1/cucumber-junit-platform-engine-7.20.1.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-engine/1.11.2/junit-platform-engine-1.11.2.jar:/home/ubuntu/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-suite/1.10.0/junit-platform-suite-1.10.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.0/junit-platform-suite-engine-1.10.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.0/junit-platform-suite-commons-1.10.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.0/junit-platform-launcher-1.10.0.jar:/home/ubuntu/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/home/ubuntu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/home/ubuntu/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/home/ubuntu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.0/junit-platform-suite-api-1.10.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/ubuntu/hamburgueria-bdd/target/surefire/surefirebooter-20251203152350926_3.jar /home/ubuntu/hamburgueria-bdd/target/surefire 2025-12-03T15-23-50_811-jvmRun1 surefire-20251203152350926_1tmp surefire_0-20251203152350926_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/ubuntu/hamburgueria-bdd/target/test-classes:/home/ubuntu/hamburgueria-bdd/target/classes:/home/ubuntu/.m2/repository/io/cucumber/cucumber-java/7.20.1/cucumber-java-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/cucumber-core/7.20.1/cucumber-core-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/cucumber-gherkin/7.20.1/cucumber-gherkin-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.20.1/cucumber-gherkin-messages-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/ubuntu/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/home/ubuntu/.m2/repository/io/cucumber/testng-xml-formatter/0.2.0/testng-xml-formatter-0.2.0.jar:/home/ubuntu/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/home/ubuntu/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/home/ubuntu/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/home/ubuntu/.m2/repository/io/cucumber/datatable/7.20.1/datatable-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/cucumber-plugin/7.20.1/cucumber-plugin-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/docstring/7.20.1/docstring-7.20.1.jar:/home/ubuntu/.m2/repository/io/cucumber/html-formatter/21.7.0/html-formatter-21.7.0.jar:/home/ubuntu/.m2/repository/io/cucumber/junit-xml-formatter/0.5.0/junit-xml-formatter-0.5.0.jar:/home/ubuntu/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/ubuntu/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ubuntu/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.20.1/cucumber-junit-platform-engine-7.20.1.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-engine/1.11.2/junit-platform-engine-1.11.2.jar:/home/ubuntu/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-suite/1.10.0/junit-platform-suite-1.10.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.0/junit-platform-suite-engine-1.10.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.0/junit-platform-suite-commons-1.10.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.0/junit-platform-launcher-1.10.0.jar:/home/ubuntu/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/home/ubuntu/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/home/ubuntu/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/home/ubuntu/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.0/junit-platform-suite-api-1.10.0.jar:/home/ubuntu/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/ubuntu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/ubuntu/hamburgueria-bdd"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/ubuntu/hamburgueria-bdd/target/surefire/surefirebooter-20251203152350926_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.28+6-post-Ubuntu-1ubuntu122.04.1"/>
+    <property name="user.name" value="ubuntu"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.1.102"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/ubuntu/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.28"/>
+    <property name="user.dir" value="/home/ubuntu/hamburgueria-bdd"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.28+6-post-Ubuntu-1ubuntu122.04.1"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Pedido simples de item existente" classname="Pedidos na hamburgueria Peppa Lanches" time="0.127">
+    <system-out><![CDATA[
+@hamburgueria @feliz
+Cenário: Pedido simples de item existente        &amp#27;[90m# features/pedidos.feature:16&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o cardápio contém os itens:&amp#27;[0m           &amp#27;[90m# steps.PedidoSteps.que_o_cardapio_contem_os_itens(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | item         | preco |
+    | x-bacon      | 25.00 |
+    | x-salada     | 22.00 |
+    | batata frita | 12.00 |
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32meu peço &amp#27;[0m&amp#27;[32m&amp#27;[1m"x-bacon"&amp#27;[0m&amp#27;[32m com &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m unidades&amp#27;[0m        &amp#27;[90m# steps.PedidoSteps.eu_peco_com_unidades(java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo valor total do pedido deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"50,00"&amp#27;[0m &amp#27;[90m# steps.PedidoSteps.o_valor_total_do_pedido_deve_ser(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Pedido de item inexistente" classname="Pedidos na hamburgueria Peppa Lanches" time="0.013">
+    <system-out><![CDATA[
+@hamburgueria @inexistente
+Cenário: Pedido de item inexistente                                 &amp#27;[90m# features/pedidos.feature:21&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o cardápio contém os itens:&amp#27;[0m                              &amp#27;[90m# steps.PedidoSteps.que_o_cardapio_contem_os_itens(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | item         | preco |
+    | x-bacon      | 25.00 |
+    | x-salada     | 22.00 |
+    | batata frita | 12.00 |
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32meu peço &amp#27;[0m&amp#27;[32m&amp#27;[1m"x-frango"&amp#27;[0m&amp#27;[32m com &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m unidade&amp#27;[0m                           &amp#27;[90m# steps.PedidoSteps.eu_peco_com_unidade(java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mdeve ser exibida a mensagem &amp#27;[0m&amp#27;[32m&amp#27;[1m"Item indisponível no cardápio"&amp#27;[0m &amp#27;[90m# steps.PedidoSteps.deve_ser_exibida_a_mensagem(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Pedido com quantidade inválida" classname="Pedidos na hamburgueria Peppa Lanches" time="0.007">
+    <system-out><![CDATA[
+@hamburgueria @quantidade
+Cenário: Pedido com quantidade inválida                   &amp#27;[90m# features/pedidos.feature:26&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o cardápio contém os itens:&amp#27;[0m                    &amp#27;[90m# steps.PedidoSteps.que_o_cardapio_contem_os_itens(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | item         | preco |
+    | x-bacon      | 25.00 |
+    | x-salada     | 22.00 |
+    | batata frita | 12.00 |
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32meu peço &amp#27;[0m&amp#27;[32m&amp#27;[1m"x-salada"&amp#27;[0m&amp#27;[32m com &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m unidades&amp#27;[0m                &amp#27;[90m# steps.PedidoSteps.eu_peco_com_unidades(java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mdeve ser exibida a mensagem &amp#27;[0m&amp#27;[32m&amp#27;[1m"Quantidade inválida"&amp#27;[0m &amp#27;[90m# steps.PedidoSteps.deve_ser_exibida_a_mensagem(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Pedido com desconto de 10 por cento" classname="Pedidos na hamburgueria Peppa Lanches" time="0.008">
+    <system-out><![CDATA[
+@hamburgueria @desconto
+Cenário: Pedido com desconto de 10 por cento     &amp#27;[90m# features/pedidos.feature:31&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o cardápio contém os itens:&amp#27;[0m           &amp#27;[90m# steps.PedidoSteps.que_o_cardapio_contem_os_itens(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | item         | preco |
+    | x-bacon      | 25.00 |
+    | x-salada     | 22.00 |
+    | batata frita | 12.00 |
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32meu peço &amp#27;[0m&amp#27;[32m&amp#27;[1m"x-bacon"&amp#27;[0m&amp#27;[32m com &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m unidade&amp#27;[0m         &amp#27;[90m# steps.PedidoSteps.eu_peco_com_unidade(java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32maplico um desconto de &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m por cento&amp#27;[0m      &amp#27;[90m# steps.PedidoSteps.e_aplico_um_desconto_de_por_cento(int)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo valor total do pedido deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"22,50"&amp#27;[0m &amp#27;[90m# steps.PedidoSteps.o_valor_total_do_pedido_deve_ser(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calcular tempo estimado de preparo" classname="Pedidos na hamburgueria Peppa Lanches" time="0.013">
+    <system-out><![CDATA[
+@hamburgueria @sla
+Cenário: Calcular tempo estimado de preparo             &amp#27;[90m# features/pedidos.feature:37&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o cardápio contém os itens:&amp#27;[0m                  &amp#27;[90m# steps.PedidoSteps.que_o_cardapio_contem_os_itens(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | item         | preco |
+    | x-bacon      | 25.00 |
+    | x-salada     | 22.00 |
+    | batata frita | 12.00 |
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32meu peço &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"x-bacon"&amp#27;[0m&amp#27;[32m e &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"batata frita"&amp#27;[0m         &amp#27;[90m# steps.PedidoSteps.eu_peco_e(int,java.lang.String,int,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo tempo estimado de preparo deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m18&amp#27;[0m&amp#27;[32m minutos&amp#27;[0m &amp#27;[90m# steps.PedidoSteps.o_tempo_estimado_de_preparo_deve_ser_minutos(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
