@@ -14,7 +14,7 @@ public class PedidoService {
         if (quantidade <= 0) {
             throw new IllegalArgumentException("inválido");
         }
-        double preco = cardapio.precoDe(item);
+        double preco = cardapio.preco(item);
         double total = preco * quantidade;
         return Math.round(total * 100.0) / 100.0;
     }
