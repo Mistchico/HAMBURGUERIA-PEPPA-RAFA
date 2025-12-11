@@ -14,7 +14,7 @@ public class CardapioService {
         return precos.containsKey(nome);
     }
 
-    public double precoDe(String nome) {
+    public double preco(String nome) {
         return precos.getOrDefault(nome, 0.0);
     }
 }

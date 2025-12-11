@@ -9,10 +9,10 @@ public class PedidoService {
 
     public double calcularTotal(String item, int quantidade) {
         if (!cardapio.existe(item)) {
-            throw new IllegalArgumentException("Item indisponível no cardápio");
+            throw new IllegalArgumentException("Item nao disponivel");
         }
         if (quantidade <= 0) {
-            throw new IllegalArgumentException("Quantidade inválida");
+            throw new IllegalArgumentException("inválido");
         }
         double preco = cardapio.precoDe(item);
         double total = preco * quantidade;
